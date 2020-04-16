@@ -1,0 +1,95 @@
+body {
+	background-image: url("bg.png");
+	background-size:cover;
+	font-family:'Roboto',sans-serif;
+	text-align:center;
+}
+
+h1 {
+	width:100%;
+	color:red;
+}
+
+hr {
+	width:25%;
+}
+
+.intro {
+	font-size:50px;
+}
+
+.summary {
+	font-size:20px;
+	color:white;
+}
+
+#header{
+	padding-top:15%;
+	padding-bottom:10px;
+}
+
+.button-area {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 320px;
+}
+
+.btn {
+	border:2px solid black;
+	background-color:black;
+	padding:14px 28px;
+	font-size:20px;
+	cursor:pointer;
+	height:30px;
+	width:50px;
+	line-height:1.3;
+	text-decoration: none;
+	flex-grow:1;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:15px;
+	margin-right:15px;
+}
+
+.resume {
+	border-color:green;
+	color:green;
+}
+
+.resume:hover {
+	color: white;
+	background-color:green;
+}
+
+.projects {
+	border-color:orange;
+	color:orange;
+}
+
+.projects:hover {
+	color:white;
+	background-color: orange;
+}
+
+.email {
+	border-color:blue;
+	color:blue;
+}
+
+.email:hover{
+	color:white;
+	background-color: blue;
+}
+
+.about {
+	border-color:purple;
+	color:purple;
+}
+
+.about:hover{
+	color:white;
+	background-color: purple;
+}
