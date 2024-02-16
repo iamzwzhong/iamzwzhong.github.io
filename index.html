@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <header class="header-container" id="top">
+      <img class="header-item" src="assets/images/avatar.svg" />
+      <p class="header-item">Zhi Wen Zhong</p>
+    </header>
+    <hr class="hr-line" />
+    <section class="intro">
+      <div class="whoami">
+        <img class="intro_img" src="assets/images/pfp.svg" />
+        <h1 class="myname">Hi, I'm Zhi</h1>
+        <p class="summary">
+          UC Irvine Graduate <br />
+          BSc in Computer Science <br />
+          Software Engineer
+        </p>
+      </div>
+      <input
+        class="btn contacts-btn"
+        type="button"
+        onClick="document.getElementById('contacts').scrollIntoView();"
+        value="Contacts"
+      />
+      <p class="welcome">
+        Enjoy your stay <br />
+        <img src="assets/images/heart.png" />
+      </p>
+    </section>
+
+    <section class="projects">
+      <article class="project">
+        <a href="https://github.com/iamzwzhong/fabflix" class="btn project-btn"
+          >Fabflix</a
+        >
+        <div class="project_details">
+          <p class="project_desc">
+            Fabflix is a Netflix-esque web-app where users are able login to
+            browse, view, and checkout movies
+          </p>
+          <a href="https://github.com/iamzwzhong/fabflix">
+            <img
+              class="project_media"
+              src="assets/project_images/fabflix.png"
+            />
+          </a>
+        </div>
+      </article>
+      <article class="project">
+        <a
+          href="https://github.com/iamzwzhong/minesweeper-clone"
+          class="btn project-btn"
+          >Minesweeper</a
+        >
+        <div class="project_details row_r">
+          <p class="project_desc">
+            Clone of Minesweeper with its classic difficulties and features such
+            as a timer, flagging, double-click as well as a simple arcade
+            leaderboard system
+          </p>
+          <a href="https://github.com/iamzwzhong/minesweeper-clone">
+            <img
+              class="project_media"
+              src="assets/project_images/minesweeper.png"
+            />
+          </a>
+        </div>
+      </article>
+      <article class="project">
+        <a
+          href="https://github.com/iamzwzhong/procedural-terrain-generation"
+          class="btn project-btn"
+          >Terrain Generator</a
+        >
+        <div class="project_details">
+          <p class="project_desc">
+            OpenGL render of infinite procedural terrain with chunk-based
+            rendering using random perlin noise generated heightmaps
+          </p>
+          <a href="https://github.com/iamzwzhong/procedural-terrain-generation">
+            <img
+              class="project_media"
+              src="assets/project_images/terrain_generation.gif"
+            />
+          </a>
+        </div>
+      </article>
+      <article class="project">
+        <a
+          href="https://github.com/iamzwzhong/columns-in-py"
+          class="btn project-btn"
+          >Columns</a
+        >
+        <div class="project_details row_r">
+          <p class="project_desc">
+            Clone of the 1989 Atari console game, Columns, a simple
+            tile-matching game
+          </p>
+          <a href="https://github.com/iamzwzhong/columns-in-py">
+            <img
+              class="project_media"
+              src="assets/project_images/columns.gif"
+            />
+          </a>
+        </div>
+      </article>
+      <article class="project">
+        <a
+          href="https://github.com/iamzwzhong/search-engine"
+          class="btn project-btn"
+          >ICS UCI Search Engine</a
+        >
+        <div class="project_details">
+          <p class="project_desc">
+            ICS UCI Search Engine is a web crawler and search engine project
+            that provides query results to a static collection of the
+            "ics.uci.edu" domain
+          </p>
+          <a href="https://github.com/iamzwzhong/search-engine">
+            <img
+              class="project_media"
+              src="assets/project_images/search_engine.png"
+            />
+          </a>
+        </div>
+      </article>
+    </section>
+    <button onClick="document.getElementById('top').scrollIntoView();">
+      <img class="up_arrow" src="assets/images/up-arrow.svg" />
+    </button>
+
+    <hr class="hr-line" />
+
+    <footer class="footer-container" id="contacts">
+      <a href="https://github.com/iamzwzhong">
+        <img src="assets/images/github.svg" />
+      </a>
+      <a href="https://www.linkedin.com/in/zhi-wen-zhong-163542195/">
+        <img src="assets/images/linkedin.svg" />
+      </a>
+    </footer>
+  </body>
+</html>

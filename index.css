@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.header-container {
+    position: relative;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 75px;
+}
+
+.footer-container {
+    min-height:75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whoami {
+    padding: 20px 20px 15px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.welcome {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 20px 20px 20px;
+    text-align: center;
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+}
+
+footer a img {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+
+.intro {
+    background:white;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.hr-line {
+    opacity: 0.5;
+}
+
+.header-item {
+    color: rgb(164, 81, 219);
+}
+
+.btn {
+    border-radius: 56px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(164, 81, 219);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contacts-btn {
+    background-color: white;
+    color: rgb(164, 81, 219);
+}
+
+.contacts-btn:hover {
+    background-color: lightgray;
+}
+
+.project-btn {
+    margin-top: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.project-btn:hover {
+    background-color:rgb(132, 43, 190) ;
+}
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.project_title{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(164, 81, 219);
+}
+
+.project_desc{
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.project_media{
+    height: 250px;
+    object-fit:cover;
+    align-self: center;
+    border-style: solid;
+    max-width: 250px;
+}
+
+.project {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+hr {
+    width: 100%;
+    color: black;
+}
+
+.intro_img{
+    display:none;
+}
+
+.up_arrow{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+@media only screen and (min-width: 375px) {
+    .welcome {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .header-container{
+        font-size: 40px;
+    }
+
+    .myname{
+        font-size: 35px;
+    }
+
+    .welcome{
+        font-size: 30px;
+    }
+
+    .btn{
+        font-size: 25px;
+    }
+
+    .project_desc{
+        font-size: 19px;
+    }
+
+    .project_media {
+        max-width: 280px;
+    }
+
+}
+
+@media only screen and (min-width: 650px) {
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .btn {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .project_desc{
+        width:40%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    .project_media{
+        max-width: 450px;
+        min-width: 320px;
+        object-fit: fill;
+    }
+
+    .project_details{
+        display: flex;
+        padding: 30px 20px 0px 20px;
+        justify-content: space-around;
+    }
+
+    .row_r {
+        flex-direction: row-reverse;
+    }
+
+    .header-container{
+        justify-content: center;
+    }
+
+    .header-item{
+        padding: 10px;
+    }
+
+    .intro_img {
+        display: block;
+        width: 75%;
+        margin: auto;
+        min-height: 350px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    header img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .header-container{
+        font-size: 50px;
+    }
+
+    .myname{
+        font-size: 40px;
+    }
+
+    .summary{
+        font-size: 25px;
+    }
+
+    .btn{
+        font-size: 30px;
+    }
+
+    .welcome{
+        font-size: 35px;
+    }
+
+    .project_details{
+        padding: 50px 20px 0px 20px;
+    }
+
+    .project_desc{
+        font-size: 23px;
+        max-width: 400px;
+    }
+
+    footer a img {
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .btn {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+
+    .intro_img{
+        max-width: 750px;
+        max-height: 750px;
+    }
+
+    footer a img {
+        width: 40px;
+        height: 40px;
+        margin: 20px;
+    }
+
+    .up_arrow{
+        height: 60px;
+        width: 60px;
+    }
+}
